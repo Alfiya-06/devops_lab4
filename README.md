@@ -28,14 +28,29 @@
 
 ## Скриншоты выполнения
 
-- `01_cron_removed.png` — проверка и очистка планировщика `cron`.
-- `02_runner_sudo.png` — создание пользователя `runner` и настройка прав `sudo` без пароля.
-- `03_ssh_copy_id.png` — успешное копирование ключа и настройка SSH-доступа.
-- `04_ansible_version.png` — проверка версии установленного Ansible.
-- `05_project_files.png` — структура созданных файлов проекта (`ls -la`).
-- `06_check_run.png` — тестовый прогон плейбука (`--check`).
-- `07_prod_run.png` — боевой запуск плейбука (`PLAY RECAP` без ошибок).
-- `08_curl_result.png` — проверка ответа веб-сервера через `curl`.
+- **Отключение старого cron:**
+  ![cron removed](screenshots/01_cron_removed.png)
+
+- **Настройка пользователя runner и прав sudo:**
+  ![runner sudo](screenshots/02_runner_sudo.png)
+
+- **Настройка SSH-доступа по ключу:**
+  ![ssh copy id](screenshots/03_ssh_copy_id.png)
+
+- **Проверка версии Ansible:**
+  ![ansible version](screenshots/04_ansible_version.png)
+
+- **Файлы проекта:**
+  ![project files](screenshots/05_project_files.png)
+
+- **Тестовый прогон плейбука (--check):**
+  ![check run](screenshots/06_check_run.png)
+
+- **Боевой запуск плейбука:**
+  ![prod run](screenshots/07_prod_run.png)
+
+- **Проверка работы веб-сервера через curl:**
+  ![curl result](screenshots/08_curl_result.png)
 
 ---
 
